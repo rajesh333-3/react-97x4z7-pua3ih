@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#container {
+  padding: 20px;
+  border-radius: 20px;
+  width: 80%;
+  border: solid black 2px;
+  margin-left: 10%;
+  margin-top: 10%;
+  background: rgb(248, 154, 209);
+}
+#task,
+#desc {
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 80%;
+  padding: 2px;
+}
+.button {
+  margin: 3%;
+  color: white;
+  border-radius: 10px;
+  height: 2%;
+}
+
+.addform {
+  padding: 10px;
+  background-color: rgb(84, 192, 125);
+  max-width: 720px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+
+.taskcard {
+  padding: 20px;
+  background: rgb(109, 214, 218);
+  max-width: 720px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+.bottomcard {
+  display: flex;
+  justify-content: space-between;
+}
+.shadow1 {
+  box-shadow: 0 5px 10px rgba(146, 155, 28, 0.05),
+    0 15px 40px rgba(27, 177, 47, 0.2);
+}
